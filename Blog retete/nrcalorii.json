@@ -1,0 +1,27 @@
+[
+	{
+		"numar": 1,
+		"reteta": "Baklava",
+		"calorii": 77
+	},
+	{
+		"numar": 2,
+		"reteta": "Tiramisu",
+		"calorii": 219
+	},
+	{
+		"numar": 3,
+		"reteta": "Salam de biscuiti",
+		"calorii": 52
+	},
+	{
+		"numar": 4,
+		"reteta": "Ciulama",
+		"calorii": 189
+	},
+	{
+		"numar": 5,
+		"reteta": "Cheeseburger",
+		"calorii":361
+	}
+]

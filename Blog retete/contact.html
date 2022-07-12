@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="/resurse/tema.css"/>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="/imagini/logo.png" alt="The Ed's" />
+          </a>
+          <button type="button" class="btn nav-btn" id="meniu">
+            <i class="fas fa-align-justify"></i>
+          </button> 
+        </div>
+        <!-- links -->
+        <div class="nav-links" id="link-meniu">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="retete.html" class="nav-link"> Rețete </a>
+          <a href="contact.html" class="nav-link"> Contact </a>
+          <a href="calorii.html" class="nav-link"> Calorii retete </a>
+        </div>
+      </div>
+    </nav>
+    <div class="page" id="formular">
+      <section class="contact-container">
+           <div class="contact-info">
+             <h2>Dorești să ne transmiți ceva?</h2>
+             <p>
+               Ai vreo rețetă pe care vrei să o vezi pe pagină sau pur și simplu vrei să intri in contact cu noi?
+             </p>
+             <p>Dacă da, atunci completeaza formularul următor și spune-ne cu ce putem să te ajutăm.</p>
+            </div>
+           <div>
+             <form class="form contact-form">
+               <div class="form-row">
+                 <label class="form-label">Nume</label>
+                 <input type="text" id="nume" class="form-input" required/>
+               </div>
+               <div class="form-row">
+                 <label class="form-label">Email</label>
+                 <input type="text" id="email" class="form-input" required/>
+               </div>
+               <div class="form-row">
+                 <label class="form-label">Mesajul tău</label>
+                 <textarea id="mesaj" class="form-textarea" required></textarea>
+               </div>
+               <button type="button" class="btn btn-block" onclick="afisareMesaj()">
+                 trimite
+               </button>
+             </form>
+            </div>
+         </section>
+        </div>
+     <footer class="page-footer">
+      <p>&copy;
+      <span class="footer-logo">The Ed's</span>
+      Realizat de Edna Memedula
+      <img src="steag.svg" alt="Steag Romania" class="steag"/>
+      </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/resurse/navbar.js"></script>
+    <script>
+    function afisareMesaj(){
+      let m = {
+        nume:document.getElementById("nume").value,
+        email:document.getElementById("email").value,
+        mesaj:document.getElementById("mesaj").value,
+        areContinut: function(){
+          if(this.nume.length!=0 && this.email.length!=0 && this.mesaj.length!=0)
+            return true;
+          else return false;
+        }
+      }
+    
+    if(m.areContinut())
+      {sessionStorage.nume=m.nume;
+        $('#formular').load('pagina2.txt');
+      }
+    else
+      alert("Introduceti valori inainte de a apasa butonul Trimite!");
+  	}
+    </script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calorii retete</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" href="/resurse/tema.css"/>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="nav-center">
+          <!-- header -->
+          <div class="nav-header">
+            <a href="index.html" class="nav-logo">
+              <img src="/imagini/logo.png" alt="The Ed's" />
+            </a>
+            <button type="button" class="btn nav-btn" id="meniu">
+              <i class="fas fa-align-justify"></i>
+            </button> 
+          </div>
+          <!-- links -->
+          <div class="nav-links" id="link-meniu">
+            <a href="index.html" class="nav-link"> Home </a>
+            <a href="retete.html" class="nav-link"> Rețete </a>
+            <a href="contact.html" class="nav-link"> Contact </a>
+            <a href="calorii.html" class="nav-link"> Calorii retete </a>
+          </div>
+        </div>
+      </nav>
+    <div class="page">
+      <h3 style="text-align: center;">Caloriile retetelor noastre sunt prezentate in urmatorul tabel</h3>
+      <table id="tabelCalorii" class="display nowrap dataTable dtr-inline collapsed" style="width: 100%;" role="grid">
+      <thead>
+        <tr>
+          <th>Numar</th>
+          <th>Reteta</th>
+          <th>Calorii</th>
+        </tr>
+      </thead>
+      </table>
+    </div>
+    <footer class="page-footer">
+      <p>&copy;
+      <span class="footer-logo">The Ed's</span>
+      Realizat de Edna Memedula
+      <img src="steag.svg" alt="Steag Romania" class="steag"/>
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="/resurse/navbar.js"></script>
+    <script>
+      $(document).ready(function (){
+        $("#tabelCalorii").DataTable({
+          ajax:{
+            url: 'nrcalorii.json',
+            dataType: 'json',
+            type: 'get',
+            dataSrc: ''
+          },
+          columns: [
+            {data: "numar"},
+            {data: "reteta"},
+            {data: "calorii"}
+          ]
+        })
+      })
+    </script>
+  </body>
+</html>
