@@ -1,0 +1,1 @@
+Proiectul este o aplicatie pentru imprumutul cartilor dintr-o biblioteca, realizat dupa niste modele date in C#.

@@ -1,0 +1,45 @@
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.csproj.AssemblyReference.cache
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.FStart.resources
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.Properties.Resources.resources
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.csproj.GenerateResource.cache
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.csproj.CoreCompileInputs.cache
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\bin\Debug\Proiect.exe.config
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\bin\Debug\Proiect.exe
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\bin\Debug\Proiect.pdb
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.exe
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.pdb
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\Proiect\Proiect\bin\Debug\Proiect.exe.config
+D:\Facultate\Proiect\Proiect\bin\Debug\Proiect.exe
+D:\Facultate\Proiect\Proiect\bin\Debug\Proiect.pdb
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.csproj.AssemblyReference.cache
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.Carti.resources
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.FImprumuturiAct.resources
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.FStart.resources
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.Persoane.resources
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.Properties.Resources.resources
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.csproj.GenerateResource.cache
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.csproj.CoreCompileInputs.cache
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.exe
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.pdb
+D:\Facultate\Proiect\Proiect\obj\Debug\Proiect.Imprumuturi.resources
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.Carti.resources
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.FImprumuturiAct.resources
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.Imprumuturi.resources
+D:\Facultate\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.Persoane.resources
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\bin\Debug\Proiect.exe.config
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\bin\Debug\Proiect.exe
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\bin\Debug\Proiect.pdb
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.csproj.AssemblyReference.cache
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.csproj.SuggestedBindingRedirects.cache
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.Carti.resources
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.FImprumuturiAct.resources
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.FStart.resources
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.Imprumuturi.resources
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.Persoane.resources
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.Properties.Resources.resources
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.csproj.GenerateResource.cache
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.csproj.CoreCompileInputs.cache
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.exe
+H:\Facultate\An3\Sem1\Tehnologii avansate de programare\Proiect\Proiect\obj\Debug\Proiect.pdb
